@@ -1,0 +1,46 @@
+:root {
+  --primary-accent: #17a2bf; /* bright cyan / teal */
+  --primary-text: #000000; /* black */
+  --primary-bg: #ffffff; /* white */
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-bg);
+}
+
+header {
+  background-color: var(--primary-accent);
+  color: var(--primary-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 3em;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  display: flex;
+  justify-content: space-around;
+}
